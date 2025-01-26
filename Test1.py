@@ -6,7 +6,7 @@ R = ql.matrix([ [0,0,0,0,1,0],
                 [0,0,100,1,0,0],
                 [0,1,1,0,1,0],
                 [1,0,0,1,0,0],
-                [0,1,0,0,0,0] ])
+                [0,1,0,0,0,0]])
 
 # Q is the Learning Matrix in which rewards will be learned/stored
 Q = ql.matrix(ql.zeros([6,6]))
