@@ -1,2 +1,2 @@
 # AISampleCode
-AI Code using Pythong
+AI Code using Python
