@@ -1,9 +1,8 @@
-
 import numpy as ql
 # R is The Reward Matrix for each state
 R = ql.matrix([ [0,0,0,0,1,0],
                 [0,0,0,1,0,1],
-                [0,0,100,1,0,0],
+                [0,1,100,1,0,0],
                 [0,1,1,0,1,0],
                 [1,0,0,1,0,0],
                 [0,1,0,0,0,0]])
