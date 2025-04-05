@@ -4,7 +4,7 @@ import math
 #Copyright 2018 Denis Rothman MIT License. See LICENSE.
 
 result=[0,0,0,0]      #trained result
-train=4               #dataset size to train
+train=8               #dataset size to train
 training_step=0.05    # At 0.05 the network is trained in 10 steps and if set to 0.5, the network is trained in 2 steps. It a simple logic problem not a difficult numerical computation
 
 #II hidden layer 1 and its ouput
