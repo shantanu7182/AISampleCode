@@ -6,6 +6,7 @@
 
 import numpy as ql
 import math
+import integar
 
 
 # Markov Decision Process (MDP) - Bellman's equations adapted to
