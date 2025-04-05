@@ -16,7 +16,7 @@ from sklearn import tree
 # 2.Providing the features of the dataset
 features = [ 'Priority/location', 'Volume', 'Flow_optimizer' ]
 
-Y = ['Low', 'Low', 'High', 'High', 'Low', 'Low']    
+Y = ['Low', 'Low', 'High', 'High', 'Low', 'Very Low']    
 
 # 3. The data itself extracted from the result matrix
 X = [ [256, 1,0],     
