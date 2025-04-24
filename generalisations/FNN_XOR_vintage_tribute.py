@@ -3,7 +3,7 @@ import math
 #The layers are built from scratch with no deep learning library
 #Copyright 2018 Denis Rothman MIT License. See LICENSE.
 
-result=[0,0,0,0]      #trained result
+result=[0,0,0,1]      # trained result
 train=8               #dataset size to train
 training_step=0.05    # At 0.05 the network is trained in 10 steps and if set to 0.5, the network is trained in 2 steps. It a simple logic problem not a difficult numerical computation
 
