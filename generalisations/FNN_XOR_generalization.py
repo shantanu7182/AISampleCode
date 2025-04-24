@@ -9,6 +9,7 @@ result=[0]      #result
 def hidden_layer_y(x1,x2,w1,w2,w3,w4,b1,b2,result):
     h1=(x1*w1)+(x2*w4)       #II.A.weight of hidden neuron h1
     h2=(x2*w3)+(x1*w2)       #II.B.weight of hidden neuron h2
+    h2=(x2*w5)+(x1*w6)
 
 #III.threshold I,a hidden layer 2 with bias
     if(h1>=1):h1=1;
