@@ -17,7 +17,6 @@ from sklearn import tree
 features = [ 'Priority/location', 'Volume', 'Flow_optimizer' ]
 
 Y = ['Low', 'Low', 'High', 'High', 'Low', 'Low']    
-
 # 3. The data itself extracted from the result matrix
 X = [ [256, 1,0],     
       [320, 1,0],
