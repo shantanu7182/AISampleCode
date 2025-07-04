@@ -17,7 +17,6 @@ print(dataset)
 2           55        38
 ...
 '''
-
 #II.Hyperparameters
 # Features = 2
 k = 6
@@ -36,7 +35,6 @@ print(gcenters)
  [ 48.44532803  24.4333996 ]
  [ 21.38965517  15.04597701]]
 '''
-
 
 #IV.Defining the Result labels 
 labels = kmeans.labels_
